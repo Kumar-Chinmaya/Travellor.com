@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  padding-left: 10% ;
+  padding-right: 10%;
+}
+a{
+  text-decoration: none;
+}

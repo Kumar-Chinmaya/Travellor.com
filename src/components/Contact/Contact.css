@@ -1,0 +1,44 @@
+.contact-form{
+    margin: 100px 0 100px 0;
+}
+.contact-form h1{
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+form{
+    width: 50%;
+    margin: auto;
+}
+form input{
+    width: 100%;
+    padding: 15px 22px;
+    margin-bottom: 20px;
+    background-color: rgba(199, 201, 246, 0.904);
+    border: 0;
+    outline: 0;
+    font-size: 17px;
+}
+form textarea{
+    width: 100%;
+    padding: 15px 22px;
+    height: 200px;
+    border: 0;
+    outline: 0;
+    background-color: rgba(199, 201, 246, 0.904);
+    margin-bottom: 20px;
+    resize: none;
+}
+.submit-button{
+    padding: 15px 24px;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    background-color: rgb(66, 240, 211);
+    
+}
+@media (max-width:850px) {
+    form{
+        width: 100%;
+    }
+}
